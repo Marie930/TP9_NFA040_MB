@@ -7,14 +7,16 @@ header {
   display: grid;
 }
 
-h1 {
+h1.titre {
   text-align: center;
   color: white;
+  margin: 0px;
 }
 
 p.mention {
   text-align: center;
   color: white;
+  padding: 15px;
 }
 
 button.connection {
@@ -38,5 +40,28 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+.entree {
+  border: solid 2px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: 150px;
+}
+
+aside {
+  width: 120px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border: solid;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
