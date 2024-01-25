@@ -41,6 +41,12 @@ nav {
   justify-content: flex-start;
 }
 
+a.select {
+  color: black;
+  border: none;
+  background: none;
+}
+
 .entree {
   border: solid 2px;
   padding: 5px;
