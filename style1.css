@@ -19,21 +19,19 @@ p.mention {
   padding: 15px;
 }
 
-button.connection {
+.connection {
   display: flex;
   justify-content: flex-end;
-  background-color: green;
-  border: none;
 }
 
 a {
-  border: solid;
   color: red;
-  background: yellow;
+  border: solid;
   border-color: black;
-  border-radius: 5px;
+  background: yellow;
   padding: 5px;
-  margin: 5px;
+  border-radius: 5px;
+  margin: 10px;
 }
 
 nav {
