@@ -1,3 +1,23 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 header {
   background-color: green;
+  display: grid;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+p.mention {
+  text-align: center;
+  color: white;
+}
+
+button.connection {
+  display: flex;
+  justify-content: flex-end;
 }
