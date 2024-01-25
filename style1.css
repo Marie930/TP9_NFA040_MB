@@ -20,4 +20,23 @@ p.mention {
 button.connection {
   display: flex;
   justify-content: flex-end;
+  background-color: green;
+  border: none;
+}
+
+a {
+  border: solid;
+  color: red;
+  background: yellow;
+  border-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
