@@ -63,6 +63,7 @@ main {
   grid-gap: 0.5rem;
   width: auto;
   grid-area: livre1;
+  margin: 5px;
 }
 
 .livre2 {
@@ -72,22 +73,25 @@ main {
   grid-gap: 0.5rem;
   width: auto;
   grid-area: livre2;
+  margin: 5px;
 }
 
-.livre3 {
-  display: grid;
-  grid-template-rows: auto;
-  margin-bottom: 30px;
-  grid-gap: 0.5rem;
-  width: auto;
-  grid-area: livre3;
-}
+  .livre3 {
+    display: grid;
+    grid-template-rows: auto;
+    margin-bottom: 30px;
+    grid-gap: 0.5rem;
+    width: auto;
+    grid-area: livre3;
+    margin: 5px;
+  }
 
-.livre4 {
-  display: grid;
-  grid-template-rows: auto;
-  margin-bottom: 30px;
-  grid-gap: 0.5rem;
-  width: auto;
-  grid-area: livre4;
-}
+  .livre4 {
+    display: grid;
+    grid-template-rows: auto;
+    margin-bottom: 30px;
+    grid-gap: 0.5rem;
+    width: auto;
+    grid-area: livre4;
+    margin: 5px;
+  }
