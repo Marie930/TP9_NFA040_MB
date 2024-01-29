@@ -1,3 +1,93 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 header {
   background-color: green;
+  display: grid;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+h1.titre {
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+
+p.mention {
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+.entree {
+  border: solid 2px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: 150px;
+}
+
+aside {
+  width: 120px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border: solid;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.corps {
+  display: grid;
+  grid-template-areas:
+    "livre1 livre2"
+    "livre3 livre4";
+}
+
+.livre1 {
+  display: grid;
+  grid-template-rows: auto;
+  margin-bottom: 30px;
+  grid-gap: 0.5rem;
+  width: auto;
+  grid-area: livre1;
+}
+
+.livre2 {
+  display: grid;
+  grid-template-rows: auto;
+  margin-bottom: 30px;
+  grid-gap: 0.5rem;
+  width: auto;
+  grid-area: livre2;
+}
+
+.livre3 {
+  display: grid;
+  grid-template-rows: auto;
+  margin-bottom: 30px;
+  grid-gap: 0.5rem;
+  width: auto;
+  grid-area: livre3;
+}
+
+.livre4 {
+  display: grid;
+  grid-template-rows: auto;
+  margin-bottom: 30px;
+  grid-gap: 0.5rem;
+  width: auto;
+  grid-area: livre4;
 }
